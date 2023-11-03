@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Mixed Nuts!</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
             background-color: #B69B8A;
@@ -32,7 +33,7 @@
 
 
 <div>click button to start!</div>
-<button type="button" onclick="init()">Nut Button</button>
+<button type="button" onclick="init()" class="nut-button">Nut Button</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
@@ -91,10 +92,20 @@
     }
 </script>
 
-<img src="/images/nutpistachio.png" alt="pisatchio image" height="300">
+
 <div class="bottom-text">
 <p> made with love by <a href="https://github.com/elizabethmazuca">elzie</a></a></p>
 </div>
 
-
+<div class="nut-container">
+    <div class="grid-item grid-item-1">
+        <img src="/images/nutpistachio.png" alt="pisatchio image" height="300">
+    </div>
+    <div class="grid-item grid-item-2">
+        <img src="/images/nutalmond.png" alt="almond image">
+    </div>
+    <div class="grid-item grid-item-3">
+        <img src="/images/nutcashew.png" alt="cashew image">
+    </div>
+</div>
 </body></html>
