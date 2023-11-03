@@ -2,4 +2,20 @@
     cursor: pointer;
     background-color: #FBF5C3;
     color:saddlebrown;
+    display: block;
+    margin: 0 auto;
+}
+
+.nut-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 100%; /* Set a maximum width for the container */
+    overflow: hidden; /* Hide any content that exceeds the container */
+}
+
+.nut-image {
+    max-width: 100%; /* Limit the image width to its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Ensure the image behaves as a block-level element */
 }

@@ -14,8 +14,15 @@
         h1 {
             color: #FBF5C3;
             text-align: center;
-            padding: 100px;
+            padding: 5px;
         }
+
+        h4 {
+            color: #FBF5C3;
+            text-align: center;
+            padding: 20px;
+        }
+
 
         .bottom-text {
           color: #446343;
@@ -32,7 +39,7 @@
 
 
 
-<div>click button to start!</div>
+<h4>click button to start!</h4>
 <button type="button" onclick="init()" class="nut-button">Nut Button</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
@@ -93,19 +100,23 @@
 </script>
 
 
-<div class="bottom-text">
-<p> made with love by <a href="https://github.com/elizabethmazuca">elzie</a></a></p>
-</div>
 
-<div class="nut-container">
+<main class="nut-container">
     <div class="grid-item grid-item-1">
-        <img src="/images/nutpistachio.png" alt="pisatchio image" height="300">
+        <img src="/images/nutpistachio.png" alt="pisatchio image" class="nut-image">
     </div>
     <div class="grid-item grid-item-2">
-        <img src="/images/nutalmond.png" alt="almond image">
+        <img src="/images/nutalmond.png" alt="almond image" class="nut-image">
     </div>
     <div class="grid-item grid-item-3">
-        <img src="/images/nutcashew.png" alt="cashew image">
+        <img src="/images/nutcashew.png" alt="cashew image" class="nut-image">
     </div>
+</main>
+
+
+
+
+<div class="bottom-text">
+    <p> made with love by <a href="https://github.com/elizabethmazuca">elzie</a></a></p>
 </div>
 </body></html>
