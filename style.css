@@ -19,3 +19,9 @@
     height: auto; /* Maintain the image's aspect ratio */
     display: block; /* Ensure the image behaves as a block-level element */
 }
+
+.webcam-container {
+    display: grid;
+    place-items: center;
+    padding: 300px;
+} /* this doenst work lol */
